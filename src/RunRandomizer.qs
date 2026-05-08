@@ -1,7 +1,7 @@
-namespace QuantumRandomNumberGenerator {
-    open Microsoft.Quantum.Diagnostics;
-    open Microsoft.Quantum.Intrinsic;
-    open Microsoft.Quantum.Measurement;
+namespace RunRandomizer {
+    import Microsoft.Quantum.Diagnostics;
+    import Microsoft.Quantum.Intrinsic;
+    import Microsoft.Quantum.Measurement;
 
     operation GenerateRandomBits(n : Int) : Result[] {
         use qubits = Qubit[n];
